@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Iain Briscoe</title>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,400italic,100italic' rel='stylesheet' type='text/css'>	
+		</head>
+
+
+	<body>
+		<div class="container">
+
+		<!-- page content--> 
+			<div class="row">
+				<div class="logo-placement col-md-6">
+					<img src="https://s3.amazonaws.com/content.udacity-data.com/site-svgs/upsell_icon.svg" height="150" alt="Udactiy Logo">
+				</div>
+				<div class="text-uppercase text-right col-md-6">
+					<h1>iain briscoe</h1>
+					<h2>the traveling programmer</h2>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<img src="images/IBmountainView.jpg" class="img-responsive" alt="Iain Briscoe In The Mountains" data-toggle="modal" data-target="#mountainsModal">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Experiences</h3>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<img src="images/mountains.jpg" class="img-responsive" alt="View of the mountains" data-toggle="modal" data-target="#glencoeModal">
+					<div class="text-center">
+						<h4>GLENCOE</h4>
+						<p>http://fakeLink.com/thisIsntaReal</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="images/giraffe.jpg" class="img-responsive" alt="Feeding a giraffe" data-toggle="modal" data-target="#giraffesModal">
+					<div class="text-center">
+						<h4>GIRAFFES</h4>
+						<p>http://fakeLink.com/thisIsntaReal</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="images/snowMountains.jpg" class="img-responsive" alt="The highest point in Scotland" data-toggle="modal" data-target="#highestPointModal">
+					<div class="text-center">
+						<h4>SCOTLAND</h4>
+						<p>http://fakeLink.com/thisIsntaReal</p>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+		<!--Main mountains Modal -->
+		<!--THIS CODE SECTION WAS COPIED OFF OF THE UDACITY WEBSITE--> 
+		<div class="modal fade" id="mountainsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel">The Highlands</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="images/IBmountainView.jpg">
+		        This Picture was taken in The Highlands of Scotland, I would go back in a heartbeat if I could. 
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+
+		<!-- Glencoe Modal -->
+		<!--THIS CODE SECTION WAS COPIED OFF OF THE UDACITY WEBSITE--> 
+		<div class="modal fade" id="glencoeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel">Glencoe</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="images/mountains.jpg">
+		        I belive this picture was taken in Glencoe though to be honest I have no idea where was.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+		<!--Giraffe Modal -->
+		<!--THIS CODE SECTION WAS COPIED OFF OF THE UDACITY WEBSITE--> 
+		<div class="modal fade" id="giraffesModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel">Giraffes</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="images/giraffe.jpg">
+		        I actually got to feed the giraffes and spend time with them one on one. 
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+		<!--highest point Modal -->
+		<!--THIS CODE SECTION WAS COPIED OFF OF THE UDACITY WEBSITE--> 
+		<div class="modal fade" id="highestPointModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel">Scotland</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="images/snowMountains.jpg">
+		        This is a shot of the highest point in scotland, absolutely amazing. 
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+	</body>
+</html>
